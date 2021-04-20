@@ -99,6 +99,8 @@ frontpage_cards:
      - d3js
     - Ejemplos
     - Aprende más"
+    button_label: Acceso
+    button_link: https://ihr.world
   - title: Tus datos
     content: "|
     - Tus derechos
@@ -113,11 +115,13 @@ frontpage_cards:
      - Puedes protegerte
      - Fake News
      - Buenas y malas prácticas (campo de minas)"
+    button_label: Acceso
+    button_link: https://ihr.world
   - title: Docentes
     content: |
       Requiere registro
     button_label: Zona docente
-    button_link: /docentes
+    button_link: https://ihr.world
 
   # - title: frontpage.download_all
   #   include: components/download-all-data.html
@@ -153,8 +157,8 @@ menu:
   - path: /goals
     # The "translation_key" refers to the key in the SDG Translations repository.
     translation_key: general.goals
-  - path: /tus-datos
-  - path: /docentes
+  # - path: /tus-datos
+  # - path: /docentes
   - path: /reporting-status
     translation_key: menu.reporting_status
   - path: /about
