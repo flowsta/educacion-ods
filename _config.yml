@@ -78,8 +78,8 @@ frontpage_introduction_banner:
   description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: "Datea: educación en datos"
-  description: Datea propone herramientas para que lxs docentes jueguen con los ODS.
+  title: my-custom-translations.my-goals-grid-title
+  description: my-custom-translations.my-goals-grid-description
 
 frontpage_cards:
   - title: DATEA
