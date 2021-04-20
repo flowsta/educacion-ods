@@ -61,9 +61,9 @@ analytics:
 
 # Replace the email addresses below.
 email_contacts:
-  questions: test@example.com
-  suggestions: test@example.com
-  functional: test@example.com
+  questions: info@ihr.world
+  suggestions: info@ihr.world
+  functional: info@ihr.world
 
 # International Support
 # Eg name: Australia and adjective: Australian
@@ -78,24 +78,65 @@ frontpage_introduction_banner:
   description: frontpage.intro_body
 
 frontpage_goals_grid:
-  title: Our data for Sustainable Development Goal indicators
-  description: Click on each goal for our Sustainable Development Goal global indicator data.
+  title: "Datea: educación en datos"
+  description: Datea propone herramientas para que lxs docentes jueguen con los ODS.
 
 frontpage_cards:
-  - title: frontpage.download_all
-    include: components/download-all-data.html
-  - title: Lorem ipsum
+  - title: DATEA
+    content: "|
+    - Básico
+     - Qué son datos abiertos
+     - Hoja de cálculo y CSV
+     - Limpieza y adaptación de datos
+     - Gráficos/infografías
+     - Ejemplos
+     - Aprende más
+    - Avanzado
+     - Minería y depuración
+     - Visualización de datos
+     - Refine
+     - Python
+     - d3js
+    - Ejemplos
+    - Aprende más"
+    button_label: Acceso
+    button_link: https://ihr.world
+  - title: Tus datos
+    content: "|
+    - Tus derechos
+     - Acceso a Internet Libre
+     - Libertad de expresión
+     - Acceso a la información
+     - Cómo participar
+     - Buenas y malas prácticas
+    - Tus riesgos
+     - Quién usa tus datos
+     - Qué saben de ti
+     - Puedes protegerte
+     - Fake News
+     - Buenas y malas prácticas (campo de minas)"
+    button_label: Acceso
+    button_link: https://ihr.world
+  - title: Docentes
     content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    button_label: Read more
-    button_link: https://example.com
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    button_label: Read more
-    button_link: https://example.com
+      Requiere registro
+    button_label: Zona docente
+    button_link: https://ihr.world
+
+  # - title: frontpage.download_all
+  #   include: components/download-all-data.html
+  # - title: Lorem ipsum
+  #   content: |
+  #     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+  #     cursus est sed dapibus.
+  #   button_label: Read more
+  #   button_link: https://example.com
+  # - title: Nam vestibulum
+  #   content: |
+  #     Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+  #     interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+  #   button_label: Read more
+  #   button_link: https://example.com
 
 # Pages
 collections:
@@ -116,6 +157,8 @@ menu:
   - path: /goals
     # The "translation_key" refers to the key in the SDG Translations repository.
     translation_key: general.goals
+  # - path: /tus-datos
+  # - path: /docentes
   - path: /reporting-status
     translation_key: menu.reporting_status
   - path: /about
@@ -128,9 +171,9 @@ menu:
     translation_key: menu.updates
 
 footer_menu:
-  - path: mailto:my-email-address@example.com
+  - path: mailto:info@ihr.world
     translation_key: menu.contact_us
-  - path: https://twitter.com/MyTwitterAccount
+  - path: https://twitter.com/ihrworld
     translation_key: general.twitter
   - path: https://facebook.com/MyFacebookAccount
     translation_key: general.facebook
