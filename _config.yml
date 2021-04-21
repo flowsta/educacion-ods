@@ -192,6 +192,7 @@ goal_image_base: https://open-sdg.org/sdg-translations/assets/img/goals
 plugins:
   - jekyll-remote-theme
   - jekyll-open-sdg-plugins
+  # - jemoji
 
 # Exclude some files/folders.
 exclude:
