@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
 .row.no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -2610,3 +2611,7 @@ body.contrast-high.layout-search form input, body.contrast-high.layout-search fo
   border-bottom: 2px solid black; }
 .layout-config-builder.contrast-high .btn-group .btn span {
   color: black; }
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 60px; }
