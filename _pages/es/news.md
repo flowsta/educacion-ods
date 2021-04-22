@@ -1,8 +1,13 @@
 ---
 layout: news
-title: News & Events
+title: Noticias y eventos
 permalink: /es/news/
 language: es
 ---
 
-Translation needed.
+Lista de noticias y eventos
+
+## Noticias
+
+## Eventos
+
